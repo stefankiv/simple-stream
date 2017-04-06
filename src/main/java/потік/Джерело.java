@@ -1,4 +1,4 @@
-package пакетик;
+package потік;
 
 import lombok.RequiredArgsConstructor;
 

@@ -1,4 +1,4 @@
-package пакетик;
+package потік;
 
 /**
  * Created by roman on 03.04.17.

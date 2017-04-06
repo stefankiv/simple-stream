@@ -1,7 +1,7 @@
-package пакетик;
+package потік;
 
 import lombok.RequiredArgsConstructor;
-import пакетик.функції.Умова;
+import потік.функції.Умова;
 
 import java.util.Iterator;
 

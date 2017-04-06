@@ -1,4 +1,4 @@
-package пакетик.функції;
+package потік.функції;
 
 /**
  * Локалізований аналог {@link java.util.function.Function}
