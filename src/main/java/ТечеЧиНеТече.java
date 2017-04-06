@@ -1,4 +1,4 @@
-package потік;
+import потік.ФабрикаПотоків;
 
 import java.util.Arrays;
 
