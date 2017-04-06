@@ -8,7 +8,7 @@ import java.util.Iterator;
  * Created by roman on 03.04.17.
  */
 @RequiredArgsConstructor
-public class КонвертованийПотік<T, R> implements Потік<R> {
+public class КонвертованийПотік<T, R> extends АбстрактнийБазовийПотік<R> {
 
     private final Iterator<T> джерело;
     private final Функція<T, R> конвертер;

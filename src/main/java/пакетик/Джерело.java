@@ -5,10 +5,10 @@ import lombok.RequiredArgsConstructor;
 import java.util.Iterator;
 
 /**
- * Created by roman on 03.04.17.
+ * Created by roman on 06.04.17.
  */
 @RequiredArgsConstructor
-public class СправжнійПотік<T> implements Потік<T> {
+public class Джерело<T> extends АбстрактнийБазовийПотік<T> {
 
     private final Iterator<T> джерело;
 

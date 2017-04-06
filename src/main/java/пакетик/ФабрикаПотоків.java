@@ -5,6 +5,6 @@ package пакетик;
  */
 public class ФабрикаПотоків {
     public static <T> Потік<T> потік(Iterable<T> джерело) {
-        return new СправжнійПотік<T>(джерело.iterator());
+        return new Джерело<T>(джерело.iterator());
     }
 }
