@@ -1,9 +1,9 @@
 package потік;
 
 import lombok.RequiredArgsConstructor;
-import потік.функції.БінарнийОператор;
-import потік.функції.Умова;
-import потік.функції.Функція;
+import функції.БінарнийОператор;
+import функції.Умова;
+import функції.Функція;
 
 /**
  * Created by roman on 03.04.17.

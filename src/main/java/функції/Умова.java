@@ -1,4 +1,4 @@
-package потік.функції;
+package функції;
 
 /**
  * Локалізований аналог {@link java.util.function.Predicate}
