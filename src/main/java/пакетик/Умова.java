@@ -1,8 +1,15 @@
 package пакетик;
 
 /**
- * Created by roman on 03.04.17.
+ * Локалізований аналог {@link java.util.function.Predicate}
  */
+@FunctionalInterface
 public interface Умова<T> {
-    boolean тест(T t);
+    /**
+     * Визначає чи заданий елемент проходить перевірку
+     *
+     * @param елемент елемент, який потрібно перевірити
+     * @return {@literal true}, якщо вхідний елемент проходить перевірку, {@literal false} якщо ні
+     */
+    boolean тест(T елемент);
 }
