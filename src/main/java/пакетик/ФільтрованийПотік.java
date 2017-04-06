@@ -1,6 +1,7 @@
 package пакетик;
 
 import lombok.RequiredArgsConstructor;
+import пакетик.функції.Умова;
 
 import java.util.Iterator;
 

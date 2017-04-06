@@ -1,8 +1,9 @@
 package пакетик;
 
 import lombok.RequiredArgsConstructor;
-
-import java.util.Iterator;
+import пакетик.функції.БінарнийОператор;
+import пакетик.функції.Умова;
+import пакетик.функції.Функція;
 
 /**
  * Created by roman on 03.04.17.

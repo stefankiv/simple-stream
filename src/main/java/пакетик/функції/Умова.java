@@ -1,4 +1,4 @@
-package пакетик;
+package пакетик.функції;
 
 /**
  * Локалізований аналог {@link java.util.function.Predicate}
