@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 import java.util.Iterator;
 
 /**
- * Created by roman on 06.04.17.
+ * Ланка потоку, з якої починається потік елементів (відповідає першій ланці кожного потоку)
  */
 @RequiredArgsConstructor
 public class Джерело<T> extends АбстрактнийБазовийПотік<T> {

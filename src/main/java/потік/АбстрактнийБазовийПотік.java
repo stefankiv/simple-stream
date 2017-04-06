@@ -6,7 +6,7 @@ import функції.Умова;
 import функції.Функція;
 
 /**
- * Created by roman on 03.04.17.
+ * Базовий клас, який відповідає за побудову ланцюжків потоку
  */
 @RequiredArgsConstructor
 public abstract class АбстрактнийБазовийПотік<T> implements Потік<T> {

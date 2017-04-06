@@ -6,7 +6,7 @@ import функції.Функція;
 import java.util.Iterator;
 
 /**
- * Created by roman on 03.04.17.
+ * Ланка потоку, яка виконує функцію конвертування над кожним елементом потоку
  */
 @RequiredArgsConstructor
 public class КонвертованийПотік<T, R> extends АбстрактнийБазовийПотік<R> {
