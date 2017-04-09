@@ -1,6 +1,5 @@
 package потік;
 
-import lombok.RequiredArgsConstructor;
 import функції.БінарнийОператор;
 import функції.Споживач;
 import функції.Умова;
@@ -11,7 +10,6 @@ import java.util.Optional;
 /**
  * Базовий клас, який відповідає за побудову ланцюжків потоку
  */
-@RequiredArgsConstructor
 public abstract class АбстрактнийБазовийПотік<T> implements Потік<T> {
     @Override
     public Потік<T> фільтр(final Умова<T> умова) {
