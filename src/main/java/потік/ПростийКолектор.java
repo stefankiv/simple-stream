@@ -24,7 +24,7 @@ public class ПростийКолектор<T, R> implements Колектор<T,
     }
 
     @Override
-    public Функція<R, R> результат() {
+    public Функція<R, R> фінішер() {
         return контейнер -> контейнер;
     }
 }
