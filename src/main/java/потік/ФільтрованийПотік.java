@@ -14,6 +14,7 @@ public class ФільтрованийПотік<T> extends Абстрактни�
 
     private final Iterator<T> джерело;
     private final Умова<T> умова;
+
     private T наступнийЕлемент;
 
     @Override
