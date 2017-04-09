@@ -2,13 +2,12 @@ package презентація.п2;
 
 import org.junit.Before;
 import org.junit.Test;
-import презентація.модель.Телефон;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Тести для потоків
@@ -25,19 +24,20 @@ public class АбстрактнийБазовийПотікТест {
     public void дляКожногоТест() {
         List<Integer> новийСписок = new ArrayList<>();
         ФабрикаПотоків.потік(циферки).дляКожного(новийСписок::add);
-        assertEquals("Розмір нового списку має бути таким, як і джерела", циферки.size(), новийСписок.size());
+        assertEquals(циферки.size(), новийСписок.size());
         System.out.println(новийСписок);
     }
 
     @Test
     public void мапТест() {
-        List<Телефон> телефони = new ArrayList<>();
+        List<String> стрічки = new ArrayList<>();
 
         ФабрикаПотоків.потік(циферки)
-                .мап(число -> new Телефон("Телефон " + число, число + 1))
-                .дляКожного(телефони::add);
+                .мап(String::valueOf)
+                .мап("Стрічка "::concat)
+                .дляКожного(стрічки::add);
 
-        assertEquals(циферки.size(), телефони.size());
-        ФабрикаПотоків.потік(телефони).дляКожного(System.out::println);
+        assertEquals(циферки.size(), стрічки.size());
+        ФабрикаПотоків.потік(стрічки).дляКожного(System.out::println);
     }
 }
