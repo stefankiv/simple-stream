@@ -14,7 +14,7 @@ import static презентація.Матчери.цеПарнеЧисло;
 /**
  * Тести для потоків
  */
-public class АбстрактнийБазовийПотікTest {
+public class АбстрактнийБазовийПотікТест {
     private List<Integer> циферки;
 
     @Before
