@@ -44,7 +44,7 @@ public class АбстрактнийБазовийПотікTest {
     }
 
     @Test
-    public void фільтрТест() throws Exception {
+    public void фільтрТест() {
         List<Integer> парніЧисла = new ArrayList<>();
 
         ФабрикаПотоків.потік(циферки)
@@ -61,7 +61,7 @@ public class АбстрактнийБазовийПотікTest {
     }
 
     @Test
-    public void редюс() throws Exception {
+    public void редюс() {
         Integer сума = ФабрикаПотоків.потік(циферки).редюс(0, Integer::sum);
         Integer sum = циферки.stream().reduce(0, Integer::sum);
         assertEquals(сума, sum);

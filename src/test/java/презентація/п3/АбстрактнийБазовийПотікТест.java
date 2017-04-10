@@ -46,7 +46,7 @@ public class АбстрактнийБазовийПотікТест {
     }
 
     @Test
-    public void фільтрТест() throws Exception {
+    public void фільтрТест() {
         List<Integer> парніЧисла = new ArrayList<>();
 
         ФабрикаПотоків.потік(циферки)
