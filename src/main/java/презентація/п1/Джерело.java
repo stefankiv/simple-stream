@@ -14,11 +14,13 @@ public class Джерело<T> extends АбстрактнийБазовийПо�
 
     @Override
     public boolean hasNext() {
-        return джерело.hasNext();
+        // TODO: треба реалізувати
+        return false;
     }
 
     @Override
     public T next() {
-        return джерело.next();
+        // TODO: треба реалізувати
+        return null;
     }
 }
