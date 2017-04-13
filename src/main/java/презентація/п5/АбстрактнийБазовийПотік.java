@@ -32,7 +32,7 @@ public abstract class АбстрактнийБазовийПотік<T> implemen
     @Override
     public <R, A> R зібрати(Колектор<T, A, R> колектор) {
         // TODO: треба реалізувати
-        return закінчитиПотік(new ЗбиральнийОператор<>(this, колектор));
+        return null;
     }
 
     /**
